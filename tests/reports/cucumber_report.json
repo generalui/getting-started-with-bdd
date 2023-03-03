@@ -1,0 +1,79 @@
+[
+  {
+    "description": "  User wants to use counter to increase or decrease the number on screen",
+    "elements": [
+      {
+        "description": "",
+        "id": "simple-counter;counter-is-increased",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Counter is increased",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 445168958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User visits homepage",
+            "match": {
+              "location": "tests/acceptance/step_definitions/simple_counter.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218746582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks the + button",
+            "match": {
+              "location": "tests/acceptance/step_definitions/simple_counter.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58188124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User sees the counter get increased",
+            "match": {
+              "location": "tests/acceptance/step_definitions/simple_counter.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2757916
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27030624
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "simple-counter",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Simple counter",
+    "tags": [],
+    "uri": "tests/acceptance/features/simple_counter.feature"
+  }
+]
