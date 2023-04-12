@@ -5,3 +5,8 @@ Feature: Simple counter
     Given User visits homepage
     When User clicks the + button 
     Then User sees the counter get increased
+
+  Scenario: Counter is decreased
+    Given User visits homepage
+    When User clicks the - button 
+    Then User sees the counter get decreased

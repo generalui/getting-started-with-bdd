@@ -21,3 +21,16 @@ Then('User sees the counter get increased', async function (this: ICustomWorld) 
     await expect(counterText).toHaveText('Count: 1')
   })
 
+  When('User clicks the - button', async function (this: ICustomWorld) {
+    const page = this.page!
+    const plusButton = await page.locator('[data-testid="decrease"]')
+    await expect(plusButton).toBeVisible()
+    await plusButton.click()
+})
+
+
+Then('User sees the counter get decreased', async function (this: ICustomWorld) {
+    const page = this.page!
+    const counterText = await page.locator('[data-testid="counter-text"]')
+    await expect(counterText).toHaveText('Count: 0')
+  })

@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 445168958
+              "duration": 337366374
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 218746582
+              "duration": 223115625
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58188124
+              "duration": 80320791
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2757916
+              "duration": 2635375
             }
           },
           {
@@ -61,7 +61,105 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 27030624
+              "duration": 463000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 47132874
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1178667
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "simple-counter;counter-is-decreased",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Counter is decreased",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 194488834
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "User visits homepage",
+            "match": {
+              "location": "tests/acceptance/step_definitions/simple_counter.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 220410250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User clicks the - button",
+            "match": {
+              "location": "tests/acceptance/step_definitions/simple_counter.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55082499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User sees the counter get decreased",
+            "match": {
+              "location": "tests/acceptance/step_definitions/simple_counter.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2087915
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 120083
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 39286750
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3191167
             }
           }
         ],
